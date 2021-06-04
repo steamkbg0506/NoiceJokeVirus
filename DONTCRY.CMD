@@ -1,6 +1,6 @@
 @echo off
 taskkill /f /im notepad.exe
 taskkill /f /im cry.exe
-echo msgbox "±×´ë, ¿ïÁö ¸»¾Æ¿ä." ^& Chr(13) ^& "³»°¡ ´Ù Ã³¸®Çß¾î¿ä" ^& Chr(13) ^& "Çà¿îÀ» ºô¾î¿ä.", 64+4096, "DONTCRY.BAT" >> .\res\diag1.vbs
-cscript .\res\diag1.vbs
+REM echo msgbox "ê·¸ëŒ€, ìš¸ì§€ ë§ì•„ìš”." ^& Chr(13) ^& "ë‚´ê°€ ë‹¤ ì²˜ë¦¬í–ˆì–´ìš”" ^& Chr(13) ^& "í–‰ìš´ì„ ë¹Œì–´ìš”.", 64+4096, "DONTCRY.BAT" >> .\res\diag1.vbs
+REM cscript .\res\diag1.vbs
 del .\res\diag1.vbs
