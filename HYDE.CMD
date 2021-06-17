@@ -1,5 +1,5 @@
 @echo off
-title °É·Áµé¾ú´Ù
+title ê±¸ë ¤ë“¤ì—ˆë‹¤
 REM ------INIT-------
 cd .\res\
 del .\say.vbs >> nul
@@ -7,7 +7,7 @@ del .\diag2.vbs >> nul
 cd ..\
 REM ----------------
 echo msgbox "still using this computer?", 4096+32, "lol" >> .\res\diag2.vbs
-echo CreateObject("SAPI.SpVoice").Speak "Àß°¡¶ù ³ªÀÇ ¾Æ±â°í¾çÀÌ,," >> .\res\say.vbs
+echo CreateObject("SAPI.SpVoice").Speak "ìž˜ê°€ëž ë‚˜ì˜ ì•„ê¸°ê³ ì–‘ì´,," >> .\res\say.vbs
 .\res\say.vbs
 .\res\noice.mp3
 :loopforever
